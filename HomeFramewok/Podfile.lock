@@ -1,0 +1,114 @@
+PODS:
+  - Adjust (5.0.1):
+    - Adjust/Adjust (= 5.0.1)
+  - Adjust/Adjust (5.0.1):
+    - AdjustSignature (~> 3.18)
+  - AdjustSignature (3.20.2)
+  - Alamofire (5.9.1)
+  - AMShimmer (1.0.6)
+  - Cosmos (21.0.0)
+  - EMAlertController (1.0.2)
+  - FittedSheets (1.4.6)
+  - FormTextField (3.1.0)
+  - IQKeyboardManagerSwift (7.1.1)
+  - LiveChat (2.0.24)
+  - Loaf (0.7.0)
+  - lottie-ios (3.5.0)
+  - Realm (20.0.0):
+    - Realm/Headers (= 20.0.0)
+  - Realm/Headers (20.0.0)
+  - RxCocoa (6.7.1):
+    - RxRelay (= 6.7.1)
+    - RxSwift (= 6.7.1)
+  - RxRelay (6.7.1):
+    - RxSwift (= 6.7.1)
+  - RxSwift (6.7.1)
+  - SDWebImage (5.19.7):
+    - SDWebImage/Core (= 5.19.7)
+  - SDWebImage/Core (5.19.7)
+  - SearchTextField (1.2.4)
+  - SkeletonView (1.8.8)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - SwiftSignalRClient (1.1.0)
+  - SwiftyJSON (5.0.2)
+  - VKPinCodeView (0.1.9)
+
+DEPENDENCIES:
+  - Adjust
+  - Alamofire (~> 5.0)
+  - AMShimmer (~> 1.0)
+  - Cosmos (~> 21.0)
+  - EMAlertController
+  - FittedSheets (= 1.4.6)
+  - FormTextField
+  - IQKeyboardManagerSwift
+  - LiveChat
+  - Loaf
+  - lottie-ios (= 3.5.0)
+  - Realm
+  - RxCocoa
+  - RxSwift
+  - SDWebImage
+  - SearchTextField
+  - SkeletonView (= 1.8.8)
+  - SVProgressHUD
+  - SwiftSignalRClient
+  - SwiftyJSON
+  - VKPinCodeView (~> 0.1.9)
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - AdjustSignature
+    - Alamofire
+    - AMShimmer
+    - Cosmos
+    - EMAlertController
+    - FittedSheets
+    - FormTextField
+    - IQKeyboardManagerSwift
+    - LiveChat
+    - Loaf
+    - lottie-ios
+    - Realm
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SearchTextField
+    - SkeletonView
+    - SVProgressHUD
+    - SwiftSignalRClient
+    - SwiftyJSON
+    - VKPinCodeView
+
+SPEC CHECKSUMS:
+  Adjust: f27daaa40d0df5550b89dd428cd8545d812e1f6d
+  AdjustSignature: f42d8c64cda8361ff5b5a31e4536d82076be4306
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  AMShimmer: 681eeaaedf9fc4e390e95e9dd6fe59df947cfee0
+  Cosmos: 3dfb6e4ba48bd48b8c9aa2a77048ae11ed114f96
+  EMAlertController: 471e4630309e5ae843ef71f502d6b58525b22c60
+  FittedSheets: 7f37fee2567d15dcde391f31eccbffb660ddebf0
+  FormTextField: 229e496b8dae002c5062ea5e961e2140528782e2
+  IQKeyboardManagerSwift: d7f3d3a562c237a0e7335e657cd598c452f57f1b
+  LiveChat: 63028afb59c57ae6771d59838b1097def6e560ed
+  Loaf: d69937cd00649f3fa260beb8b7aef0a1feb861ef
+  lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
+  Realm: a799b5f9145623fb0bfe149fe81422863631dd0f
+  RxCocoa: f5609cb4637587a7faa99c5d5787e3ad582b75a4
+  RxRelay: 4151ba01152436b08271e08410135e099880eae5
+  RxSwift: b9a93a26031785159e11abd40d1a55bcb8057e52
+  SDWebImage: 8a6b7b160b4d710e2a22b6900e25301075c34cb3
+  SearchTextField: 40dc3cc57def5a211f263cac263622c163bbc25a
+  SkeletonView: e37c282c1b228547b83daf47605f79c3aeb1df9a
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  SwiftSignalRClient: 2fa651ea18d47c5aaa135f0c8cf959239c845999
+  SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
+  VKPinCodeView: c9d1f69b88cba236424a46145abd1d67eb567491
+
+PODFILE CHECKSUM: 1c7c1886a09b8688130cc4b06977820ebe4f881e
+
+COCOAPODS: 1.15.2

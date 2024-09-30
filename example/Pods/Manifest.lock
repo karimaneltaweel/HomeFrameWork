@@ -1,0 +1,21 @@
+PODS:
+  - homeframework (1.0.0)
+
+DEPENDENCIES:
+  - homeframework (from `https://github.com/karimaneltaweel/HomeFrameWork`)
+
+EXTERNAL SOURCES:
+  homeframework:
+    :git: https://github.com/karimaneltaweel/HomeFrameWork
+
+CHECKOUT OPTIONS:
+  homeframework:
+    :commit: 721451b3654fad0da104954ad67f37c65839bbc1
+    :git: https://github.com/karimaneltaweel/HomeFrameWork
+
+SPEC CHECKSUMS:
+  homeframework: a48d9701b1ca030e473d61335776e8a9e61ba628
+
+PODFILE CHECKSUM: 355ba44444b2882ba44696c7c0e463c2a69de575
+
+COCOAPODS: 1.15.2

@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192C6C477271C1A48D70B1CE /* Pods_HomeFramewok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31772006E96C0175D83F5B7B /* Pods_HomeFramewok.framework */; };
 		523F9E482CA89AC3005F6994 /* HomeFramewok.h in Headers */ = {isa = PBXBuildFile; fileRef = 523F9E472CA89AC3005F6994 /* HomeFramewok.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		523F9E4F2CA89AD8005F6994 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F9E4E2CA89AD8005F6994 /* HomeView.swift */; };
+		526E48CE2CAB4930009F0ED8 /* AuthenticationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E48C42CAB4930009F0ED8 /* AuthenticationModel.swift */; };
+		526E48CF2CAB4930009F0ED8 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E48C52CAB4930009F0ED8 /* HomeInteractor.swift */; };
+		526E48D02CAB4930009F0ED8 /* HomeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E48C62CAB4930009F0ED8 /* HomeConfigurator.swift */; };
+		526E48D12CAB4930009F0ED8 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E48C72CAB4930009F0ED8 /* HomeRouter.swift */; };
+		526E48D22CAB4930009F0ED8 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526E48C82CAB4930009F0ED8 /* HomeVC.xib */; };
+		526E48D32CAB4930009F0ED8 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E48CA2CAB4930009F0ED8 /* ProfileTableViewCell.swift */; };
+		526E48D42CAB4930009F0ED8 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526E48CB2CAB4930009F0ED8 /* ProfileTableViewCell.xib */; };
+		526E48D52CAB4930009F0ED8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E48CC2CAB4930009F0ED8 /* HomeVC.swift */; };
+		526E48D62CAB4930009F0ED8 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E48CD2CAB4930009F0ED8 /* HomePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A4E4C74FF78CA9837CFEE26 /* Pods-HomeFramewok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeFramewok.debug.xcconfig"; path = "Target Support Files/Pods-HomeFramewok/Pods-HomeFramewok.debug.xcconfig"; sourceTree = "<group>"; };
+		31772006E96C0175D83F5B7B /* Pods_HomeFramewok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeFramewok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		523F9E442CA89AC3005F6994 /* HomeFramewok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HomeFramewok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		523F9E472CA89AC3005F6994 /* HomeFramewok.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFramewok.h; sourceTree = "<group>"; };
-		523F9E4E2CA89AD8005F6994 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		526E48C42CAB4930009F0ED8 /* AuthenticationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationModel.swift; sourceTree = "<group>"; };
+		526E48C52CAB4930009F0ED8 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		526E48C62CAB4930009F0ED8 /* HomeConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeConfigurator.swift; sourceTree = "<group>"; };
+		526E48C72CAB4930009F0ED8 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		526E48C82CAB4930009F0ED8 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		526E48CA2CAB4930009F0ED8 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		526E48CB2CAB4930009F0ED8 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		526E48CC2CAB4930009F0ED8 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		526E48CD2CAB4930009F0ED8 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		70F98BD107A59149F41F86B3 /* Pods-HomeFramewok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeFramewok.release.xcconfig"; path = "Target Support Files/Pods-HomeFramewok/Pods-HomeFramewok.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -22,17 +42,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				192C6C477271C1A48D70B1CE /* Pods_HomeFramewok.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		473087A90CAE094FB7009C7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31772006E96C0175D83F5B7B /* Pods_HomeFramewok.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		523F9E3A2CA89AC3005F6994 = {
 			isa = PBXGroup;
 			children = (
 				523F9E462CA89AC3005F6994 /* HomeFramewok */,
 				523F9E452CA89AC3005F6994 /* Products */,
+				79105EA91DD42F393FE2C836 /* Pods */,
+				473087A90CAE094FB7009C7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,9 +79,42 @@
 			isa = PBXGroup;
 			children = (
 				523F9E472CA89AC3005F6994 /* HomeFramewok.h */,
-				523F9E4E2CA89AD8005F6994 /* HomeView.swift */,
+				526E48C32CAB4930009F0ED8 /* Home */,
 			);
 			path = HomeFramewok;
+			sourceTree = "<group>";
+		};
+		526E48C32CAB4930009F0ED8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				526E48C42CAB4930009F0ED8 /* AuthenticationModel.swift */,
+				526E48C52CAB4930009F0ED8 /* HomeInteractor.swift */,
+				526E48C62CAB4930009F0ED8 /* HomeConfigurator.swift */,
+				526E48C72CAB4930009F0ED8 /* HomeRouter.swift */,
+				526E48C82CAB4930009F0ED8 /* HomeVC.xib */,
+				526E48C92CAB4930009F0ED8 /* HomeCell */,
+				526E48CC2CAB4930009F0ED8 /* HomeVC.swift */,
+				526E48CD2CAB4930009F0ED8 /* HomePresenter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		526E48C92CAB4930009F0ED8 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				526E48CA2CAB4930009F0ED8 /* ProfileTableViewCell.swift */,
+				526E48CB2CAB4930009F0ED8 /* ProfileTableViewCell.xib */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		79105EA91DD42F393FE2C836 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A4E4C74FF78CA9837CFEE26 /* Pods-HomeFramewok.debug.xcconfig */,
+				70F98BD107A59149F41F86B3 /* Pods-HomeFramewok.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +135,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 523F9E4B2CA89AC3005F6994 /* Build configuration list for PBXNativeTarget "HomeFramewok" */;
 			buildPhases = (
+				D00CCF16D5537D35E2EF3235 /* [CP] Check Pods Manifest.lock */,
 				523F9E3F2CA89AC3005F6994 /* Headers */,
 				523F9E402CA89AC3005F6994 /* Sources */,
 				523F9E412CA89AC3005F6994 /* Frameworks */,
@@ -123,17 +188,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526E48D22CAB4930009F0ED8 /* HomeVC.xib in Resources */,
+				526E48D42CAB4930009F0ED8 /* ProfileTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D00CCF16D5537D35E2EF3235 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeFramewok-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		523F9E402CA89AC3005F6994 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523F9E4F2CA89AD8005F6994 /* HomeView.swift in Sources */,
+				526E48CF2CAB4930009F0ED8 /* HomeInteractor.swift in Sources */,
+				526E48D52CAB4930009F0ED8 /* HomeVC.swift in Sources */,
+				526E48D02CAB4930009F0ED8 /* HomeConfigurator.swift in Sources */,
+				526E48D32CAB4930009F0ED8 /* ProfileTableViewCell.swift in Sources */,
+				526E48CE2CAB4930009F0ED8 /* AuthenticationModel.swift in Sources */,
+				526E48D12CAB4930009F0ED8 /* HomeRouter.swift in Sources */,
+				526E48D62CAB4930009F0ED8 /* HomePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +365,7 @@
 		};
 		523F9E4C2CA89AC3005F6994 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4E4C74FF78CA9837CFEE26 /* Pods-HomeFramewok.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +399,7 @@
 		};
 		523F9E4D2CA89AC3005F6994 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F98BD107A59149F41F86B3 /* Pods-HomeFramewok.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,49 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'HomeFramewok' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for HomeFramewok
+  pod 'Alamofire', '~> 5.0'
+  pod 'SwiftyJSON'
+  pod 'AMShimmer', '~> 1.0'
+  pod 'SkeletonView', '1.8.8'
+  pod 'SVProgressHUD'
+  pod 'SDWebImage'
+  pod 'lottie-ios', '3.5.0'
+  pod 'SearchTextField'
+  pod 'FittedSheets', '1.4.6'
+  pod 'FormTextField'
+  pod 'VKPinCodeView', '~> 0.1.9'
+  pod 'Adjust'
+  #pod 'ReadMoreTextView',:git => 'https://github.com/ilyapuchka/ReadMoreTextView.git'
+  #pod 'DropDown', '2.3.13'
+  pod 'Cosmos', '~> 21.0'
+  #pod 'ImageSlideshow','~> 0.1'
+  #pod "ImageSlideshow/SDWebImage"
+  #pod 'DLRadioButton'
+  pod 'Loaf'
+  #pod 'ReactiveSwift'
+  #pod 'ReactiveCocoa'
+  pod 'EMAlertController'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  #pod 'EasyPeasy'
+  #pod 'DKImagePickerController', :subspecs => ['PhotoGallery', 'Camera', 'InlineCamera']
+  #pod 'TTSegmentedControl', '~>0.4.9'
+  pod 'IQKeyboardManagerSwift'
+  pod 'SwiftSignalRClient'
+  pod 'LiveChat'
+  pod 'Realm'
+  #pod 'RealmSwift'
+  #pod 'Spring'
+ post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+      end
+    end
+  end
+end
